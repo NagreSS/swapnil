@@ -5,7 +5,7 @@ node {
     try {
         // Stage: GIT checkout
         stage('GIT checkout') {
-            git 'https://github.com/NagreSS/boxfuse-sample-java-war-hello.git'
+            git 'https://github.com/NagreSS/swapnil.git'
         }
 
         // Stage: Build
